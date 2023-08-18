@@ -1,0 +1,16 @@
+.root {
+    align-items:;
+text-align: center;
+}
+.Main {
+    background-image: url("../../assets/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    text-align: left;
+    height: 100%;
+    position: relative;
+    color: white;
+
+
+}
