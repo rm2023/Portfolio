@@ -1,16 +1,32 @@
-.root {
-    align-items:;
-text-align: center;
-}
 .Main {
-    background-image: url("../../assets/background.jpg");
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    text-align: left;
-    height: 100%;
-    position: relative;
-    color: white;
+  background-image: url("../../assets/background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  text-align: left;
+  height: 100%;
+  position: relative;
+  color: white;
+  /* display: flex;
+    justify-content: space-evenly; */
+}
 
+h1 {
+  padding-top: 50px;
+  padding-right: 1050px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
 
+h3 {
+  padding-top: 0px;
+  padding-right: 500px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+img {
+
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }

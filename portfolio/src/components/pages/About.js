@@ -1,17 +1,24 @@
 import React from 'react';
+import '../css/about.css';
 
-export default function About() {
+export default function Home() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+
+    <div className="about">
+      <h1>
+        About me &
+         my Education
+         </h1>
+      <h3>
+      <p>Fully certified in fullstack as of july from UNC charlotte, the Program included instructional time with learners of 240 hours, and spent up to an
+       additional 240 hours on homework and projects.</p>
+       <p>Using git hub to upload/download homework and also collaberating with classmates on deployed websites projects. Learned to use visual studio to 
+        create mobile friendly web apps while sending databases to mongoDB and Deploying on heroku.</p>
+        <p>In my react portfolio I have implemented what I have learned.</p>
+
+      </h3>
+
+
     </div>
   );
 }
