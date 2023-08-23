@@ -1,32 +1,41 @@
-.about {
-    background-image: url("../../assets/aboutbg.jpg");
-    background-size: cover;
-    min-height: 100vh;
-    text-align: left;
-    height: 100%;
-    position: relative;
-    color: white;
-    /* display: flex;
-      justify-content: space-evenly; */
-  }
-  
-  h1 {
-    padding-top: 50px;
-    padding-right: 1050px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  }
-  
-  h3 {
-    padding-top: 0px;
-    padding-right: 500px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  }
-  
-  img {
-  
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-  }
+.Main {
+  background-image: url("../../assets/background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  text-align: left;
+  height: 100%;
+  position: relative;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-right: 1050px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+h3 {
+  padding-top: 0px;
+  padding-right: 500px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+img {
+
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.icons a {
+  margin: 0 10px;
+}
